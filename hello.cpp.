@@ -185,6 +185,8 @@ int main() {
 
 
 
+#include <stdio.h>
+
 int main() {
     int a, b, product;
     a = 20;
