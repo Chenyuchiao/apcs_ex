@@ -7,7 +7,7 @@ int main(){
     scanf("%f", &r);
     if(r>=0){
     printf("A=pi*r*r=%f \n",pi*r*r);
-    printf("S=2*pi*r=%f \n",2*pi*r);
+    printf("L=2*pi*r=%f \n",2*pi*r);
     }else{
         printf("please input r: ");
     }
