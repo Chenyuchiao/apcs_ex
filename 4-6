@@ -28,4 +28,4 @@ int main(){
       printf("30 days");   
     }else{(m==12);
       printf("31 days");    
-    }
+ }
