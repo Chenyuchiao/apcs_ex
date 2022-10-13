@@ -4,7 +4,7 @@ int main(){
     int s;
     printf("please input a score:");
     scanf("%d",&s);
-    #if 
+    #if 1
     if(s>80){
         printf("your score level is A\n");
     }else if(s<=80 && s>70)
