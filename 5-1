@@ -1,0 +1,18 @@
+#include <stdio.h>
+using namespace std;
+int main(){
+    int s;
+    printf("please input a score:");
+    scanf("%d",&s);
+    #if 0
+    if(s>80){
+        printf("your score level is A\n");
+    }else if(s<=80 && s>70)
+        printf("your score level is B\n");
+    }else if(s<=70 && s>60)
+        printf("your score level is C\n");
+    }else if(s<=60 && s>40)
+        printf("your score level is D\n");
+    }else{
+        printf("your score level is E\n");
+    }
