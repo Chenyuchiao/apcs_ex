@@ -16,3 +16,25 @@ int main(){
     }else{
         printf("your score level is E\n");
     }
+    #else
+    switch(s){
+        case 10:printf("your score level is A\n");
+        break;
+        case 9:printf("your score level is A\n");
+        break;
+        case 8:printf("your score level is A\n");
+        break;
+        case 7:printf("your score level is B\n");
+        break;
+        case 6:printf("your score level is C\n");
+        break;
+        case 5:printf("your score level is D\n");
+        break;
+        case 4:printf("your score level is D\n");
+        break;
+        default:printf("your score level is E\n");
+        break;
+    }
+    #endif
+    return 0;
+    }
