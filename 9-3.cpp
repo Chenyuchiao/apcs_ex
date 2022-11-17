@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-int add(int w, int h){
-    return w*h;
+int add(int x, int y){
+    return x*y;
    
 
 }
