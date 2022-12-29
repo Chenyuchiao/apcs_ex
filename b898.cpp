@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-int a, b, c;
-printf("input numbers: ");
+int n, i, a, b, c;
+scanf("%d",&n);
+for(i=0;i<n;i++){
+//printf("input numbers: ");
 //scanf("%d ,%d, %d", &a, &b, &c);
 scanf("%d", &a);
 scanf("%d", &b);
@@ -15,7 +17,8 @@ printf("%d ", b);
 }else if(a*a + b*b == c*c){
 printf("%d ", c);
 }else{
-printf("input numbers: ");
+//printf("input numbers: ");
+}
 }
 return 0;
 }
